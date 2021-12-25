@@ -1,6 +1,7 @@
 <template>
   <div>
     <h3>Remote App</h3>
+    <Mouse></Mouse>
     <Content :count="count"/>
     <Button @btnClick="inc"/>
   </div>
@@ -9,11 +10,13 @@
 <script>
 import Content from "./components/Content";
 import Button from './components/Button';
+import { Mouse } from './components/';
 
 export default {
   components: {
     Content,
     Button,
+    Mouse
   },
   data() {
     return {

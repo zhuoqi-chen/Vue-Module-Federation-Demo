@@ -49,7 +49,7 @@ module.exports = (env = {}) => ({
       library: { type: "var", name: "remote_mf" },
       exposes: {
         "./lib": "./src/js/lib.js",
-        "./Button": "./src/components/Button.vue",
+        "./component": "./src/components/index.js",
       },
       shared: ["vue"],
     }),
