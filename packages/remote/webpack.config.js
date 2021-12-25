@@ -51,6 +51,7 @@ module.exports = (env = {}) => ({
         "./lib": "./src/js/lib.js",
         "./Button": "./src/components/Button.vue",
       },
+      shared: ["vue"],
     }),
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, "./index.html"),
