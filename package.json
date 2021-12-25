@@ -5,6 +5,10 @@
   "repository": "git@github.com:zhuoqi-chen/Vue-Module-Federation-Demo.git",
   "author": "zhuoqi.chen <zhuoqi_chen@126.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "lerna run start --stream",
+    "serve": "lerna run serve --stream"
+  },
   "dependencies": {
     "lerna": "^4.0.0"
   },
