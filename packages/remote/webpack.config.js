@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { VueLoaderPlugin } = require("vue-loader");
 const { ModuleFederationPlugin } = require("webpack").container;
 module.exports = (env = {}) => ({
-  mode: "production",
+  mode: "development",
   cache: false,
   devtool: "source-map",
   optimization: {
@@ -50,8 +50,9 @@ module.exports = (env = {}) => ({
       exposes: {
         "./lib": "./src/js/lib.js",
         "./component": "./src/components/index.js",
+        "./vue": "../../node_modules/vue/dist/vue.runtime.esm.js",
       },
-      shared: ["vue"],
+      // shared: ["vue", "@vue/composition-api"],
     }),
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, "./index.html"),

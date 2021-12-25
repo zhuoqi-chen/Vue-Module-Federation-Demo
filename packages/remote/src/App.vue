@@ -10,7 +10,7 @@
 <script>
 import Content from "./components/Content";
 import Button from './components/Button';
-import { Mouse } from './components/';
+import { Mouse } from './components/index.js';
 
 export default {
   components: {
