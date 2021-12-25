@@ -1,0 +1,15 @@
+{
+  "name": "Vue-Module-Federation-Demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:zhuoqi-chen/Vue-Module-Federation-Demo.git",
+  "author": "zhuoqi.chen <zhuoqi_chen@126.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lerna": "^4.0.0"
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
