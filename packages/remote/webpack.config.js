@@ -48,7 +48,6 @@ module.exports = (env = {}) => ({
       filename: "remoteEntry.js",
       library: { type: "var", name: "remote_mf" },
       exposes: {
-        "./lib": "./src/js/lib.js",
         "./component": "./src/components/index.js",
         "./vue": "../../node_modules/vue/dist/vue.runtime.esm.js",
       },

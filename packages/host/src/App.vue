@@ -2,16 +2,14 @@
   <div>
     <h3>Host App</h3>
     <Mouse></Mouse>
-    <Button @btnClick="inc"/>
   </div>
 </template>
 
 <script>
-import {Button,Mouse} from 'remote_mf/component';
+import {Mouse} from 'remote_mf/component';
 
 export default {
   components: {
-    Button,
     Mouse
   },
   data() {
