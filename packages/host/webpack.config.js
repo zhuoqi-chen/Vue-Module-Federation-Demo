@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { VueLoaderPlugin } = require("vue-loader");
 const { ModuleFederationPlugin } = require("webpack").container;
 module.exports = (env = {}) => ({
-  mode: "development",
+  mode: "production",
   cache: false,
   devtool: "source-map",
   optimization: {

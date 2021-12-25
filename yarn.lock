@@ -1090,6 +1090,21 @@
   dependencies:
     tslib "^2.3.1"
 
+"@vueuse/core@^7.4.1":
+  version "7.4.1"
+  resolved "https://registry.npmmirror.com/@vueuse/core/download/@vueuse/core-7.4.1.tgz#81ede3f67dfd58af8284c910ac2fee25458892c6"
+  integrity sha512-8UeLPCAieeQLXFHF1/28SIEK6ILLPb/4hp03hR+xkXF00gB/YUp0CEVcRAL9uQ8HTZa3S2T/jTISMc1ZjilM0A==
+  dependencies:
+    "@vueuse/shared" "7.4.1"
+    vue-demi "*"
+
+"@vueuse/shared@7.4.1":
+  version "7.4.1"
+  resolved "https://registry.npmmirror.com/@vueuse/shared/download/@vueuse/shared-7.4.1.tgz#0aa090147fbd66ba56334ada1ffa2dafab815c1b"
+  integrity sha512-Pzb7XoHIcgPwwBJ5Ow9lZb0HTDyaLDV3pgxKauPGTMN9qvEylG06kUG+VTjJXkPsRtiGu46di8XyFeMw2dongA==
+  dependencies:
+    vue-demi "*"
+
 "@webassemblyjs/ast@1.11.1":
   version "1.11.1"
   resolved "https://registry.nlark.com/@webassemblyjs/ast/download/@webassemblyjs/ast-1.11.1.tgz?cache=0&sync_timestamp=1625473459015&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40webassemblyjs%2Fast%2Fdownload%2F%40webassemblyjs%2Fast-1.11.1.tgz#2bfd767eae1a6996f432ff7e8d7fc75679c0b6a7"
@@ -6310,6 +6325,11 @@ verror@1.10.0:
     assert-plus "^1.0.0"
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
+
+vue-demi@*:
+  version "0.12.1"
+  resolved "https://registry.npmmirror.com/vue-demi/download/vue-demi-0.12.1.tgz#f7e18efbecffd11ab069d1472d7a06e319b4174c"
+  integrity sha1-9+GO++z/0RqwadFHLXoG4xm0F0w=
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"
