@@ -47,7 +47,7 @@ module.exports = (env = {}) => ({
       remotes: {
         remote_mf: "remote_mf@http://localhost:3001/remoteEntry.js",
       },
-      // shared: ["vue", "@vue/composition-api"],
+      shared: ["vue", "@vue/composition-api"],
     }),
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, "./index.html"),

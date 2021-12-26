@@ -51,7 +51,7 @@ module.exports = (env = {}) => ({
         "./component": "./src/components/index.js",
         "./vue": "../../node_modules/vue/dist/vue.runtime.esm.js",
       },
-      // shared: ["vue", "@vue/composition-api"],
+      shared: ["vue", "@vue/composition-api"],
     }),
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, "./index.html"),
