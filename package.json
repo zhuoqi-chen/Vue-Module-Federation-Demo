@@ -6,6 +6,7 @@
   "author": "zhuoqi.chen <zhuoqi_chen@126.com>",
   "license": "MIT",
   "scripts": {
+    "bootstrap": "lerna bootstrap",
     "start": "lerna run start --stream",
     "serve": "lerna run serve --stream"
   },

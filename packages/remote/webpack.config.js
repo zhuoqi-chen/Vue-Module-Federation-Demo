@@ -49,7 +49,7 @@ module.exports = (env = {}) => ({
       library: { type: "var", name: "remote_mf" },
       exposes: {
         "./component": "./src/components/index.js",
-        "./vue": "../../node_modules/vue/dist/vue.runtime.esm.js",
+        // "./vue": "../../node_modules/vue/dist/vue.runtime.esm.js",
       },
       shared: ["vue", "@vue/composition-api"],
     }),
